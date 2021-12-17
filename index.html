@@ -1,0 +1,56 @@
+<!--
+NAME: Mohmmadazhar Khalifa
+DATE: 12/16/2021
+Email: mohmmadazhar_khalifa@student.uml.edu
+
+ASSIGNMENT DESCRIPTION: The purpose of this assignment was to implememt some of the concepts
+of the game "scrabble". We had to further our knowledge of Jquery UI.
+We had to use the drag and drop feature to creat this concept. User would drag
+a tile anf drop it on the board to make a while. That would also update the user
+score and would allow the next work to show. The score kept adding up until User
+decides to restart the game.
+
+File Description: To implememt the js, css jquery UI  inorder to have the
+scrabble board working with all of its required features working
+-->
+
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrabbles</title>
+    <link rel="stylesheet" href="jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="mainContainer">
+        <h3 class="scoreClass">Score : <span id="score">0</span> &nbsp;&nbsp;Remaining Tiles : <span id="spnRemTiles">91</span></h3>
+        <div id="game-over" class="scoreClass"></div>
+        <div class="board">
+            <img id="0" class="ui-widget-header target" src="Image/scrabble_board_tile_1.png">
+            <img id="1" class="ui-widget-header target" src="Image/scrabble_board_tile_2.png">
+            <img id="2" class="ui-widget-header target" src="Image/scrabble_board_tile_1.png">
+            <img id="3" class="ui-widget-header target" src="Image/scrabble_board_tile_1.png">
+            <img id="4" class="ui-widget-header target" src="Image/scrabble_board_tile_1.png">
+            <img id="5" class="ui-widget-header target" src="Image/scrabble_board_tile_2.png">
+            <img id="6" class="ui-widget-header target" src="Image/scrabble_board_tile_1.png">
+        </div>
+
+        <div class="letters">
+        </div>
+
+        <button id="newline">Next Line</button>
+        <button id="start-again">Start Again</button>
+    </div>
+
+
+    <script src="jquery-ui/external/jquery/jquery.js"></script>
+    <script src="jquery-ui/jquery-ui.min.js"></script>
+    <script src="js/words_dictionary.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+</html>

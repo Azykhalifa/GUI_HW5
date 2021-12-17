@@ -1,0 +1,42 @@
+/*
+Name: Mohmmadazhar Khalifa
+Date: 12/16/2021
+Email: mohmmadazhar_khalifa@student.uml.edu
+
+File Description: This is the css file which styles the content that is displayed
+on the game UI
+*/
+
+.target {
+    height: 60px;
+    padding: 0.5em;
+}
+.letters{
+    background-image: url("./Image/scrabble-tile-holder-406774_640.png");
+    background-repeat: no-repeat;
+    height: 100px;
+    margin: 20px;
+}
+.scoreClass{
+    text-align: left;
+    font-size: x-large;
+    margin-left: 100px;
+    font-weight: bold;
+}
+.letter{
+    height: 75px;
+    width: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.board{
+    margin-left: 40px;
+}
+.mainContainer{
+     background-color: lightgrey;
+    width: 70%;
+    border: 5px solid blue;
+    padding: 50px;
+    margin: 30px;
+    margin-left: 100px;
+}
